@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">ContactList</string>
     <string name="app_title">Safe Calls</string>
+    <string name="contacts_based_on_positions">View Contacts Based on Position</string>
+    <string name="addContacts">Add A New Contact</string>
 </resources>
