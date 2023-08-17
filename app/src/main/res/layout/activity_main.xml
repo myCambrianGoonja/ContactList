@@ -35,46 +35,46 @@
         app:layout_constraintTop_toBottomOf="@+id/title_space"
         tools:layout_editor_absoluteX="-16dp">
         <!-- First CardView -->
-        <androidx.cardview.widget.CardView
-            android:layout_width="350dp"
-            android:layout_height="70dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="10dp">
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="25dp"-->
+<!--            android:layout_marginTop="10dp">-->
 
-            <!-- TextView inside the CardView -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:text="@string/contacts_based_on_positions"
-                android:textAlignment="center"
-                android:textColor="@color/falcon"
-                android:textStyle="bold" />
-            <!-- Note: There's an extra closing ">" after "android:textStyle="bold"" above, which should be removed. -->
+<!--            &lt;!&ndash; TextView inside the CardView &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:text="@string/contacts_based_on_positions"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/falcon"-->
+<!--                android:textStyle="bold" />-->
+<!--            &lt;!&ndash; Note: There's an extra closing ">" after "android:textStyle="bold"" above, which should be removed. &ndash;&gt;-->
 
-        </androidx.cardview.widget.CardView>
+<!--        </androidx.cardview.widget.CardView>-->
 
         <!-- Second CardView -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/add_new_contacts_card"
-            android:layout_width="350dp"
-            android:layout_height="70dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp">
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/add_new_contacts_card"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="25dp"-->
+<!--            android:layout_marginTop="15dp">-->
 
-            <!-- TextView inside the CardView -->
-            <TextView
-                android:id="@+id/add_new_contacts_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:text="@string/addContacts"
-                android:textAlignment="center"
-                android:textColor="@color/falcon"
-                android:textStyle="bold" />
-            <!-- Note: There's an extra closing ">" after "android:textStyle="bold"" above, which should be removed. -->
+<!--            &lt;!&ndash; TextView inside the CardView &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/add_new_contacts_text"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:text="@string/addContacts"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/falcon"-->
+<!--                android:textStyle="bold" />-->
+<!--            &lt;!&ndash; Note: There's an extra closing ">" after "android:textStyle="bold"" above, which should be removed. &ndash;&gt;-->
 
-        </androidx.cardview.widget.CardView>
+<!--        </androidx.cardview.widget.CardView>-->
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
